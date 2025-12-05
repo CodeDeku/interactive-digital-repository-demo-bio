@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirac Bio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 15px; /* Matches your layout padding */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: transparent; /* Lets the zone background show through */
+            color: #333; /* Dark text */
+            overflow: hidden; /* No scrollbars */
+        }
+
+        .bio-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .headshot {
+            width: 120px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            border: 2px solid #782F40; /* FSU Garnet Border */
+        }
+
+        .text-content {
+            flex: 1;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 8px;
+            color: #782F40; /* FSU Garnet */
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin: 0;
+            font-size: 0.95rem; /* Readable size */
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bio-container">
+        <img src="media/dirac-teaching.jpg" alt="Paul Dirac" class="headshot">
+        
+        <div class="text-content">
+            <h2>The Mind in the Box</h2>
+            <p>
+                Paul A.M. Dirac was a Nobel Laureate and one of the most brilliant physicists of the 20th century. While his scientific work was incredibly precise, his filing system was chaotic. Dirac stored thousands of his handwritten calculations and letters in simple cardboard shoeboxes.
+                <br><br>
+                This digital collection offers an intimate look into the working process of the man who predicted antimatter.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
